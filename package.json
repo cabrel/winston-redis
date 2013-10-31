@@ -1,12 +1,17 @@
 {
-  "name": "winston-redis",
+  "name": "cabrel-winston-redis",
   "description": "A fixed-length Redis transport for winston",
-  "version": "0.2.1",
-  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+  "version": "1.0.0",
+  "author": "Robin Harper <cabrel@zerklabs.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/indexzero/winston-redis.git"
+    "url": "http://github.com/cabrel/winston-redis.git"
   },
+  "contributors": [
+      {
+        "name" : "Charlie Robbins",
+        "name": "Robin Harper"
+  }],
   "keywords": ["logging", "sysadmin", "tools", "winston", "redis"],
   "dependencies": {
     "redis": "0.8.x"
